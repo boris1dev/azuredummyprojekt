@@ -9,15 +9,4 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
-  <ItemGroup>
-    <None Update="einetfesttextdateo.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>einetfesttextdateo.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="einetfesttextdateo.cs">
-      <DependentUpon>einetfesttextdateo.tt</DependentUpon>
-    </Compile>
-  </ItemGroup>
 </Project>
