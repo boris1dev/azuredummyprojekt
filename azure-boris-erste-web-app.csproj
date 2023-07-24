@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_boris_erste_web_app</RootNamespace>
+    <UserSecretsId>c279751b-8b34-4ecf-a458-d46a38b85b65</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
